@@ -1,0 +1,48 @@
+.footer-main{
+    color: white;
+    display: flex;
+    background-color: #050546;
+    height: 85vh;
+    position: relative;
+    bottom: 0;
+}
+
+.footer-split{
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-icons{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-left: -70px;
+    filter: invert(1);
+}
+
+.footer-image{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.footer-text{
+    position: absolute;
+    font-size: 180px;
+    left: 250px;
+    top: 95px;
+    background: linear-gradient(to right, #ffffff28, #ffffff,#ffffff28);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.footer-icons img{
+    height: 30px;
+    opacity: 0.6;
+}

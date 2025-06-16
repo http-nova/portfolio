@@ -1,0 +1,42 @@
+.about-main{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    height: 100vh;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.about-image img{
+    border: 3px solid black;
+    border-radius: 50%;
+    height: 500px;
+    width: 500px;
+    background-color: black;
+}
+
+.about-image{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.about-text{
+    flex: 1;
+    color: white;
+}
+
+.about-title{
+    position: absolute;
+    font-size: 80px;
+    font-weight: 600;
+    bottom: 480px;
+    left: 500px;
+}
+
+.about-para{
+    padding-top: 100px;
+    font-size: 22px;
+    width: 500px;
+}
