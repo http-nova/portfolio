@@ -8,7 +8,7 @@ import './Footer.css'
 function Footer() {
   return (
     <>
-    <div className="footer-main">
+    <div className="footer-main" id='footer'>
         <div className="footer-split">
             <div className='footer-icons'>
                 <a href="#"><img src={linkedin} alt="linkedin" /></a>

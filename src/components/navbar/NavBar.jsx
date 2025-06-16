@@ -9,14 +9,14 @@ function NavBar() {
               <a href="#about">About</a>
             </li>
             <li>
-              <a href="#">Projects</a>
+              <a href="#projects">Projects</a>
             </li>
             <li>
-              <a href="#">Contact</a>
+              <a href="#footer">Contact</a>
             </li>
             <li>
               <div className="nav-box">
-                <a href="#">Home</a>
+                <a href="#home">Home</a>
               </div>
             </li>
           </ul>

@@ -26,7 +26,7 @@ function ChangingText() {
 
 function Home() {
   return (
-    <div className="home-split">
+    <div className="home-split" id='home'>
       <div className="home-text">
         <div className="home-title">
           I'm <ChangingText />
